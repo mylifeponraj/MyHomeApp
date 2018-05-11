@@ -1,0 +1,15 @@
+extends ./layout
+
+block content
+	div(class="topnav", id="myTopnav")
+		a(href="/home" class="active") Home
+		a(href="/banking") Banking
+		a(href="/automation") Automation
+		a(href="/settings") Settings
+		a(href="javascript:void(0);" class="icon" id="expandBtn")
+			i(class="fa fa-bars")
+	.container-fluid
+		h1 Banking page is on construction
+		some paragraph here..
+		button(id='checkBtn' name='raiseRQ') Call REST
+			

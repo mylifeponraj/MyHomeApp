@@ -1,0 +1,40 @@
+{
+    "deposit-details": [
+        {
+            "fdNumber": "12345",
+            "fdName": "Ponraj Suthanthiramani",
+            "depositInterest": "7",
+            "depositAmount": "100000",
+            "depositDate": "2017-05-05",
+            "maturityAmount": "145000",
+            "maturityDate": "2019-05-05"
+        },
+        {
+            "fdNumber": "12346",
+            "fdName": "Sujitra Devi Dhayalan",
+            "depositInterest": "7",
+            "depositAmount": "100000",
+            "depositDate": "2017-05-05",
+            "maturityAmount": "145000",
+            "maturityDate": "2019-05-05"
+        },
+        {
+            "fdNumber": "12347",
+            "fdName": "Sujitra Devi Dhayalan",
+            "depositInterest": "6.9",
+            "depositAmount": "200000",
+            "depositDate": "2017-05-05",
+            "maturityAmount": "500000",
+            "maturityDate": "2022-02-02"
+        },
+        {
+            "fdNumber": "12348",
+            "fdName": "Ponraj Suthanthiramaniq",
+            "depositInterest": "7",
+            "depositAmount": "2000000",
+            "depositDate": "2015-04-04",
+            "maturityAmount": "300000",
+            "maturityDate": "2022-01-02"
+        }
+    ]
+}
