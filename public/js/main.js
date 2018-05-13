@@ -27,4 +27,16 @@ $(document).ready(function() {
 	});
 	
 	 $('#fdTable').DataTable();
+	 
+	 retriveAndPopulateTotalTable();
 });
+
+function retriveAndPopulateTotalTable() {
+	$.getJSON('/getPopulatedFDDetails', function(response) {
+		console.info(response);
+		$('#ponrajDepositAmt').text(response[1].total_deposit_amount)
+		$('#ponrajMaturityAmt').text(response[1].total_maturity_amount)
+		$('#sujiDepositAmt').text(response[0].total_deposit_amount)
+		$('#sujiMaturityAmt').text(response[0].total_maturity_amount)
+	});
+}

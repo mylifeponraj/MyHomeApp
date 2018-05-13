@@ -34,14 +34,13 @@ block content
 			div.content
 				table.table(id='fdTable' class='table table-hover table-dark')
 					thead
-						tr
-							th Deposit Number
-							th Deposit Name
-							th Deposit Date
-							th Deposit Amount
-							th Depoist Interest
-							th Maturity Date
-							th Maturity Amount
+						th Deposit Number
+						th Deposit Name
+						th Deposit Date
+						th Deposit Amount
+						th Depoist Interest
+						th Maturity Date
+						th Maturity Amount
 					tbody
 						- each rec, i in data  
 							tr
@@ -53,7 +52,7 @@ block content
 								td #{rec.maturityDate}
 								td #{rec.maturityAmount}
 					tfoot
-						tr Deposit Number
+						tr
 							th Deposit Number
 							th Deposit Name
 							th Deposit Date
@@ -61,4 +60,25 @@ block content
 							th Depoist Interest
 							th Maturity Date
 							th Maturity Amount
-					
+			<hr/>
+			p
+				h5 Total Details:
+			table.table(id='totalTable' class='table table-hover table-dark')
+				thead
+					th Deposit Number
+					th Total Deposit Amount
+					th Total Maturity Amount
+				tbody
+					tr
+						td Ponraj Suthanthiramani
+						td(id="ponrajDepositAmt") 0
+						td(id="ponrajMaturityAmt") 0
+					tr
+						td Sujitra Devi Dhayalan
+						td(id="sujiDepositAmt") 0
+						td(id="sujiMaturityAmt") 0
+
+			<br/>
+			<br/>
+			<br/>
+			<br/>
